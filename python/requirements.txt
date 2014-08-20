@@ -1,0 +1,4 @@
+ipython
+pep8
+virtualenv
+virtualenvwrapper

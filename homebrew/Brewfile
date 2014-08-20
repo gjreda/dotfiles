@@ -1,0 +1,34 @@
+# mostly adapted from Dave Tucker's Brewfile (https://github.com/dave-tucker/dotfiles/blob/master/homebrew/Brewfile)
+
+update
+
+upgrade
+
+# basics
+install grc
+install coreutils
+install moreutils
+install spark
+install bash
+install bash-completion
+
+# programming
+install python
+install python3
+install node
+
+# SCM
+install git
+
+# OSX apps via Cask
+install caskroom/cask/brew-cask
+cask install google-chrome
+cask install firefox
+cask install sublime-text
+cask install dropbox
+cask install flux
+cask install spotify
+cask install sequel-pro
+cask install keepassx
+
+cleanup

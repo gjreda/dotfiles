@@ -1,0 +1,13 @@
+[user]
+  name = Greg Reda
+  email = greg@gregreda.com
+
+[github]
+  user = gjreda
+
+[color]
+  ui = true
+
+[core]
+  editor = subl
+  excludesfile = ~/.gitignore_global
