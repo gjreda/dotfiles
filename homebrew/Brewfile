@@ -30,5 +30,6 @@ cask install flux
 cask install spotify
 cask install sequel-pro
 cask install keepassx
+cask install evernote
 
 cleanup
