@@ -9,6 +9,7 @@ alias db='cd ~/Dropbox'
 alias ll='ls -laG'
 
 alias serve='python -m SimpleHTTPServer'
+alias pyprocs='ps xa | grep python'
 
 #########################
 #	Others		#
