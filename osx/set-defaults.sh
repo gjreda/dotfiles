@@ -133,6 +133,9 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/nul
 # Disable remote control infrared receiver
 defaults write com.apple.driver.AppleIRController DeviceEnabled -bool false
 
+# Prevent WiFi disconnent on sleep
+pmset -a sleep 0
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
