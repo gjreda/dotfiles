@@ -17,6 +17,9 @@ install python
 install python3
 install node
 
+# stupid matplotlib ...
+install pkg-config
+
 # SCM
 install git
 
@@ -31,5 +34,7 @@ cask install spotify
 cask install sequel-pro
 cask install keepassx
 cask install evernote
+cask install r
+cask install rstudio
 
 cleanup
