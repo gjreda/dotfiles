@@ -16,6 +16,7 @@ install bash-completion
 install python
 install python3
 install node
+install aws-elasticbeanstalk
 
 # stupid matplotlib ...
 install pkg-config
@@ -36,5 +37,6 @@ cask install keepassx
 cask install evernote
 cask install r
 cask install rstudio
+cask install postgres
 
 cleanup
