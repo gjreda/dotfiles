@@ -17,10 +17,16 @@ alias pyproc='ps xa | grep python'
 # Give preference to Homebrew installations
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
+# PostgresApp command line tools and pg_config error for psycopg2
+export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
+
 # Python's virtualenv setup
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
+
+# Docker
+export DOCKER_HOST=tcp://192.168.59.103:2375
 
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768;
