@@ -1,0 +1,10 @@
+# get the sum for a column of numbers - use it with pipes
+sum () {
+  awk '{ sum += $1 } END { printf "%.2f\n", sum }';
+}
+
+# an easy way to keep track of my "must listen to" albums
+# gonna make my kids listen to these one day when they'll appreciate them
+albums () {
+  echo $1 >> ~/Dropbox/albums.txt
+}
