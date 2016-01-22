@@ -1,0 +1,4 @@
+backend: TkAgg
+interactive: True
+image.origin: lower
+image.interpolation: nearest
