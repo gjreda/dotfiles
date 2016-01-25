@@ -4,7 +4,7 @@
 # Python's virtualenv setup
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
-source /usr/local/bin/virtualenvwrapper.sh
+# source /usr/local/bin/virtualenvwrapper.sh
 
 # Postgres
 export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
@@ -36,3 +36,6 @@ export ETL_TOOL_CONFIG=config/greda
 
 # Docker
 export DOCKER_HOST=tcp://192.168.59.103:2375
+
+# Authenticate GitHub API requests
+export HOMEBREW_GITHUB_API_TOKEN=b54b3efe2bec30cd98d4d890e0f132fab9f1a4a7

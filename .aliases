@@ -23,7 +23,7 @@ alias ...='cd ../..'
 alias db='cd ~/Dropbox'
 alias fl='cd ~/Dropbox/freelance'
 
-alias python='python3'
+#alias python='python3'
 alias serve='python -m http.server'
 alias pyproc='ps xa | grep python'
 
