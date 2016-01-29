@@ -22,6 +22,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias db='cd ~/Dropbox'
 alias fl='cd ~/Dropbox/freelance'
+alias ds='cd ~/sprout/data-science'
 
 #alias python='python3'
 alias serve='python -m http.server'
