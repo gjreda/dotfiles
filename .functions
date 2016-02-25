@@ -3,6 +3,13 @@ sum () {
   awk '{ sum += $1 } END { printf "%.2f\n", sum }';
 }
 
+# makes an animated gif out of images in a directory
+gifme () {
+  ffmpeg -f image2 -r 10 -i %d.png -s 480x360 -filter:v "setpts=3.0*PTS" animate.avi
+  convert -delay 25 -loop 0 animate.avi "$1.gif"
+  rm animate.avi
+}
+
 # an easy way to keep track of my "must listen to" albums
 # gonna make my kids listen to these one day when they'll appreciate them
 albums () {
