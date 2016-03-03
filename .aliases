@@ -34,6 +34,7 @@ alias pykill="sudo ps xa | grep python | grep -v grep | cut -d' ' -f1 | xargs ki
 
 alias vim='/usr/local/bin/mvim'
 alias ia='open -a /Applications/iA\ Writer.app'
+alias md='macdown'
 alias redis_start='redis-server /usr/local/etc/redis.conf'
 
 
